@@ -3,52 +3,116 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Extracted Call Log Collection</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .intro {
+      text-align: center;
+      color: #666;
+      margin-bottom: 25px;
+    }
+
+    .audio-card {
+      background: white;
+      padding: 18px;
+      margin-bottom: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .audio-card h2 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    audio {
+      width: 100%;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Extracted Call Log Collection</h1>
-  <p>Tap play to listen.</p>
 
-  <h2>Audio 1</h2>
-  <audio controls>
-    <source src="12038939943calllog16.mp3" type="audio/mpeg">
-  </audio>
+  <div class="container">
 
-  <h2>Audio 2</h2>
-  <audio controls>
-    <source src="12038939943calllog165.mp3" type="audio/mpeg">
-  </audio>
+    <h1>Extracted Call Log Collection</h1>
+    <p class="intro">Tap play to listen to an audio recording.</p>
 
-  <h2>Audio 3</h2>
-  <audio controls>
-    <source src="12038939943calllog29.mp3" type="audio/mpeg">
-  </audio>
+    <div class="audio-card">
+      <h2>Audio 1</h2>
+      <audio controls>
+        <source src="https://recordedcalllog.github.io/audio-call-log/12038939943calllog16.mp3" type="audio/mpeg">
+      </audio>
+    </div>
 
-  <h2>Audio 4</h2>
-  <audio controls>
-    <source src="12038939943calllog34.mp3" type="audio/mpeg">
-  </audio>
+    <div class="audio-card">
+      <h2>Audio 2</h2>
+      <audio controls>
+        <source src="https://recordedcalllog.github.io/audio-call-log/12038939943calllog165.mp3" type="audio/mpeg">
+      </audio>
+    </div>
 
-  <h2>Audio 5</h2>
-  <audio controls>
-    <source src="12038939943calllog367.mp3" type="audio/mpeg">
-  </audio>
+    <div class="audio-card">
+      <h2>Audio 3</h2>
+      <audio controls>
+        <source src="https://recordedcalllog.github.io/audio-call-log/12038939943calllog29.mp3" type="audio/mpeg">
+      </audio>
+    </div>
 
-  <h2>Audio 6</h2>
-  <audio controls>
-    <source src="12038939943calllog786.mp3" type="audio/mpeg">
-  </audio>
+    <div class="audio-card">
+      <h2>Audio 4</h2>
+      <audio controls>
+        <source src="https://recordedcalllog.github.io/audio-call-log/12038939943calllog34.mp3" type="audio/mpeg">
+      </audio>
+    </div>
 
-  <h2>Audio 7</h2>
-  <audio controls>
-    <source src="https://recordedcalllog.github.io/audio-call-log/audio-1.mp3" type="audio/mpeg">
-  </audio>
+    <div class="audio-card">
+      <h2>Audio 5</h2>
+      <audio controls>
+        <source src="https://recordedcalllog.github.io/audio-call-log/12038939943calllog367.mp3" type="audio/mpeg">
+      </audio>
+    </div>
 
-  <h2>Audio 8</h2>
-  <audio controls>
-    <source src="track.mp3" type="audio/mpeg">
-  </audio>
+    <div class="audio-card">
+      <h2>Audio 6</h2>
+      <audio controls>
+        <source src="https://recordedcalllog.github.io/audio-call-log/12038939943calllog786.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="audio-card">
+      <h2>Audio 7</h2>
+      <audio controls>
+        <source src="https://recordedcalllog.github.io/audio-call-log/audio-1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="audio-card">
+      <h2>Audio 8</h2>
+      <audio controls>
+        <source src="https://recordedcalllog.github.io/audio-call-log/track.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+  </div>
 
 </body>
 </html>
